@@ -37,7 +37,7 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-
+extern uint8_t I2C_REGISTERS[15];
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
@@ -130,6 +130,7 @@ void Error_Handler(void);
 #define WDI_GPIO_Port GPIOB
 #define M1_CE_Pin GPIO_PIN_9
 #define M1_CE_GPIO_Port GPIOB
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

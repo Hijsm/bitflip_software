@@ -1,0 +1,164 @@
+Configuration	Da_Vinci_Bitflip_v1_3
+STM32CubeMX 	6.8.1
+Date	07/04/2023
+MCU	STM32L151R6TxA
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN19	ADC_IN19	PB13
+ADC	IN20	ADC_IN20	PB14
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+RTC	Activate Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	Internal WakeUp	RTC_VS_RTC_WakeUp_intern	VP_RTC_VS_RTC_WakeUp_intern
+SYS	JTAG (4 pins)	SYS_JTCK-SWCLK	PA14
+SYS	JTAG (4 pins)	SYS_JTDI	PA15
+SYS	JTAG (4 pins)	SYS_JTDO-TRACESWO	PB3
+SYS	JTAG (4 pins)	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM10	Internal Clock	TIM10_VS_ClockSourceINT	VP_TIM10_VS_ClockSourceINT
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-WKUP2	GPIO_Output	ADDR_13
+3	PC14-OSC32_IN	GPIO_Output	ADDR_14
+4	PC15-OSC32_OUT	GPIO_Output	ADDR_15
+8	PC0	GPIO_Output	ADDR_0
+9	PC1	GPIO_Output	ADDR_1
+10	PC2	GPIO_Output	ADDR_2
+11	PC3	GPIO_Output	ADDR_3
+14	PA0-WKUP1	GPIO_Output	IO_0
+15	PA1	GPIO_Output	IO_1
+16	PA2	GPIO_Output	IO_2
+17	PA3	GPIO_Output	IO_3
+20	PA4	GPIO_Output	IO_4
+21	PA5	GPIO_Output	IO_5
+22	PA6	GPIO_Output	IO_6
+23	PA7	GPIO_Output	IO_7
+24	PC4	GPIO_Output	ADDR_4
+25	PC5	GPIO_Output	ADDR_5
+26	PB0	GPIO_Output	ADDR_16
+27	PB1	GPIO_Output	ADDR_17
+28	PB2	GPIO_Output	ADDR_18
+29	PB10	GPIO_Output	M2_CE
+30	PB11	GPIO_Output	M3_CE
+33	PB12	GPIO_Output	FET_CTRL
+34	PB13	ADC_IN19	
+35	PB14	ADC_IN20	
+37	PC6	GPIO_Output	ADDR_6
+38	PC7	GPIO_Output	ADDR_7
+39	PC8	GPIO_Output	ADDR_8
+40	PC9	GPIO_Output	ADDR_9
+42	PA9	USART1_TX	
+43	PA10	USART1_RX	
+44	PA11	GPIO_Output	OUT_EN
+45	PA12	GPIO_Output	WRITE_EN
+46	PA13	SYS_JTMS-SWDIO	
+49	PA14	SYS_JTCK-SWCLK	
+50	PA15	SYS_JTDI	
+51	PC10	GPIO_Output	ADDR_10
+52	PC11	GPIO_Output	ADDR_11
+53	PC12	GPIO_Output	ADDR_12
+55	PB3	SYS_JTDO-TRACESWO	
+56	PB4	GPIO_Output	ADDR_19
+57	PB5	GPIO_Output	ADDR_20
+58	PB6	I2C1_SCL	
+59	PB7	I2C1_SDA	
+61	PB8	GPIO_Output	WDI
+62	PB9	GPIO_Output	M1_CE
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN19	ADC_IN19	PB13
+ADC	IN20	ADC_IN20	PB14
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+RTC	Activate Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	Internal WakeUp	RTC_VS_RTC_WakeUp_intern	VP_RTC_VS_RTC_WakeUp_intern
+SYS	JTAG (4 pins)	SYS_JTCK-SWCLK	PA14
+SYS	JTAG (4 pins)	SYS_JTDI	PA15
+SYS	JTAG (4 pins)	SYS_JTDO-TRACESWO	PB3
+SYS	JTAG (4 pins)	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM10	Internal Clock	TIM10_VS_ClockSourceINT	VP_TIM10_VS_ClockSourceINT
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-WKUP2	GPIO_Output	ADDR_13
+3	PC14-OSC32_IN	GPIO_Output	ADDR_14
+4	PC15-OSC32_OUT	GPIO_Output	ADDR_15
+8	PC0	GPIO_Output	ADDR_0
+9	PC1	GPIO_Output	ADDR_1
+10	PC2	GPIO_Output	ADDR_2
+11	PC3	GPIO_Output	ADDR_3
+14	PA0-WKUP1	GPIO_Output	IO_0
+15	PA1	GPIO_Output	IO_1
+16	PA2	GPIO_Output	IO_2
+17	PA3	GPIO_Output	IO_3
+20	PA4	GPIO_Output	IO_4
+21	PA5	GPIO_Output	IO_5
+22	PA6	GPIO_Output	IO_6
+23	PA7	GPIO_Output	IO_7
+24	PC4	GPIO_Output	ADDR_4
+25	PC5	GPIO_Output	ADDR_5
+26	PB0	GPIO_Output	ADDR_16
+27	PB1	GPIO_Output	ADDR_17
+28	PB2	GPIO_Output	ADDR_18
+29	PB10	GPIO_Output	M2_CE
+30	PB11	GPIO_Output	M3_CE
+33	PB12	GPIO_Output	FET_CTRL
+34	PB13	ADC_IN19	
+35	PB14	ADC_IN20	
+37	PC6	GPIO_Output	ADDR_6
+38	PC7	GPIO_Output	ADDR_7
+39	PC8	GPIO_Output	ADDR_8
+40	PC9	GPIO_Output	ADDR_9
+42	PA9	USART1_TX	
+43	PA10	USART1_RX	
+44	PA11	GPIO_Output	OUT_EN
+45	PA12	GPIO_Output	WRITE_EN
+46	PA13	SYS_JTMS-SWDIO	
+49	PA14	SYS_JTCK-SWCLK	
+50	PA15	SYS_JTDI	
+51	PC10	GPIO_Output	ADDR_10
+52	PC11	GPIO_Output	ADDR_11
+53	PC12	GPIO_Output	ADDR_12
+55	PB3	SYS_JTDO-TRACESWO	
+56	PB4	GPIO_Output	ADDR_19
+57	PB5	GPIO_Output	ADDR_20
+58	PB6	I2C1_SCL	
+59	PB7	I2C1_SDA	
+61	PB8	GPIO_Output	WDI
+62	PB9	GPIO_Output	M1_CE
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Da_Vinci_Bitflip_v1_3
+Project Folder : C:\Users\matth\Documents\GitHub\bitflip_software
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_L1 V1.10.4
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

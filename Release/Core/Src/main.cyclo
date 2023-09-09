@@ -1,0 +1,5 @@
+main.cpp:95:6:void standby_for_ms(uint32_t)	2
+main.cpp:232:6:void SystemClock_Config()	4
+main.cpp:81:6:void stop_for_ms(uint32_t)	1
+main.cpp:125:5:int main()	12
+main.cpp:596:6:void Error_Handler()	1

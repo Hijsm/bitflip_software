@@ -1,0 +1,11 @@
+main.cpp:73:6:void stop_for_ms(uint32_t)	1
+main.cpp:88:6:void standby_for_ms(uint32_t)	2
+main.cpp:119:5:int main()	12
+main.cpp:305:6:void SystemClock_Config()	4
+main.cpp:354:13:void MX_ADC_Init()	3
+main.cpp:406:13:void MX_I2C1_Init()	2
+main.cpp:438:13:void MX_RTC_Init()	5
+main.cpp:504:13:void MX_TIM10_Init()	3
+main.cpp:539:13:void MX_USART1_UART_Init()	2
+main.cpp:570:13:void MX_GPIO_Init()	1
+main.cpp:651:6:void Error_Handler()	1

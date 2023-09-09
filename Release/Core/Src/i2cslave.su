@@ -1,0 +1,4 @@
+../Core/Src/i2cslave.cpp:18:13:void HAL_I2C_ListenCpltCallback(I2C_HandleTypeDef*)	0	static
+../Core/Src/i2cslave.cpp:23:13:void HAL_I2C_AddrCallback(I2C_HandleTypeDef*, uint8_t, uint16_t)	0	static
+../Core/Src/i2cslave.cpp:35:6:void HAL_I2C_SlaveRxCpltCallback(I2C_HandleTypeDef*)	0	static
+../Core/Src/i2cslave.cpp:40:6:void HAL_I2C_ErrorCallback(I2C_HandleTypeDef*)	0	static

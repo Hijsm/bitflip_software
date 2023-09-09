@@ -52,6 +52,8 @@ MemoryController::MemoryController(GPIO_TypeDef *CE_GPIO_Port, uint16_t CE_Pin) 
 }
 
 void MemoryController::set_CE(GPIO_TypeDef *CE_GPIO_Port, uint16_t CE_Pin) {
+	HAL_GPIO_WritePin(M1_CE_GPIO_Port, M1_CE_Pin|M2_CE_Pin|M3_CE_Pin, GPIO_PIN_SET); // Disable All Memory
+
 	_CE_GPIO_Port = CE_GPIO_Port;
 	_CE_Pin = CE_Pin;
 }
